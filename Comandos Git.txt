@@ -1,0 +1,45 @@
+Resumen rapido para usar  comandos
+
+-- Directorio de trabajo - Working directory --
+
+git init:
+Vincula la carpeta seleccionada con el programa Git, 
+tambien de ahí vamos a sacar la linea de tiempo de acá
+
+git pull:
+Bajar archivos sincronizados en el proyecto GitHub
+
+git clone "https://github.com/NombreUsuario/ProyectoDeseado.git":
+Clona todos los archivos del proyecto guardado en GitHub en el disco duro de la computadora
+
+git checkout . :
+Revertir cambios en código
+
+-- Area de espera -- Borrador -- Stating area --
+git add . :
+Poner en lista de espera a todos los archivos, para despues subirse a GitHub
+
+git add NombreArchivo.extension ó "Nombre espaciado.extension":
+Indicar a Git que ese archivo falta subirse a la carpeta en GitHub
+
+git commit -m "mensaje descriptivo":
+Describir que modificacion se le hizo al archivo
+
+git Status:
+Ver si esta todo vinculado o hay archivos pendientes subir a GitHub
+
+git diff:
+Mostrar los cambios en el código actual con la versión anterior, 
+(comparación en local, usando los commit)
+
+git log:
+Ver las modificaciones que se hizo en el proyecto, las diferencias se ordenan por la etiqueta de
+cada acción
+
+-- Carpeta del proyecto - Repository --
+
+git remote add origin https://github.com/beremonth/Curso-Git-GitHub.git :
+Vincular la carpeta local, con la carpeta en GitHub (esto va a ser el proyecto)
+
+git push -u origin master :
+Subir al proyecto las cosas que estan en el "area de espera" o "borrador"
