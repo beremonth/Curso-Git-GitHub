@@ -51,4 +51,7 @@ git remote add origin https://github.com/beremonth/Curso-Git-GitHub.git :
 Vincular la carpeta local, con la carpeta en GitHub (esto va a ser el proyecto)
 
 git push -u origin master :
-Subir al proyecto las cosas que estan en el "area de espera" o "borrador"
+Subir al proyecto las cosas que estan en el "area de espera" o "borrador", pide usuario
+
+git push origin master:
+Subir archivos al proyecto sin solicitar usuario
