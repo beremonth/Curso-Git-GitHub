@@ -20,7 +20,7 @@ git add . :
 Poner en lista de espera a todos los archivos, para despues subirse a GitHub
 
 git add NombreArchivo.extension ó "Nombre espaciado.extension":
-Indicar a Git que ese archivo falta subirse a la carpeta en GitHub
+Indicar a Git que ese archivo falta moverse a temporar y listo para subirse a la carpeta en GitHub
 
 git commit -m "mensaje descriptivo":
 Describir que modificacion se le hizo al archivo
@@ -35,6 +35,15 @@ Mostrar los cambios en el código actual con la versión anterior,
 git log:
 Ver las modificaciones que se hizo en el proyecto, las diferencias se ordenan por la etiqueta de
 cada acción
+
+Esta sección es para editar en temporal
+
+git commit --amend -m "Mensaje corregido":
+Editar la informarcion del ultimo mensaje escrito en el historial
+
+git mv NombreArchivo.extension NombreArchivoCorregido.extension:
+cambiar el nombre de un archivo, desde consola (usando git)
+
 
 -- Carpeta del proyecto - Repository --
 
